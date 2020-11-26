@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Channel</title>
+    <title>News</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -26,8 +26,19 @@
     <div class="collapse navbar-collapse" id="collapse_target">
 
         <ul class="navbar-nav ml-auto">
+
             <li class="nav-item">
-                <a class="nav-link" href="index.html">News</a>
+                <a class="nav-link" href="login">Pieslēgties</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="register">Reģistrēties</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sazina">Saziņa</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="index">News</a>
             </li>
 
             <li class="nav-item dropdown">
@@ -36,9 +47,9 @@
                     <span class="caret"></span>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdown_target">
-                    <a class="dropdown-item" href="videos.html">Videos</a>
+                    <a class="dropdown-item" href="videos">Videos</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="screenshots.html">Screenshots</a>
+                    <a class="dropdown-item" href="screenshots">Screenshots</a>
                 </div>
             </li>
 
@@ -48,32 +59,43 @@
                     <span class="caret"></span>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdown_target">
-                    <a class="dropdown-item" href="me.html">Me</a>
+                    <a class="dropdown-item" href="me">Me</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="my_channel.html">My Channel</a>
+                    <a class="dropdown-item" href="my_channel">My Channel</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="my_dog.html">My Dog</a>
+                    <a class="dropdown-item" href="my_dog">My Dog</a>
                 </div>
             </li>
+
+            
+
         </ul>
 
     </div>
 </nav>
 <div class="container col-12">
     <div class="my_content_title">
-        <h>Info about my youtube channel:</h>
+        <h>You can see the latest news about me here.</h>
     </div>
     <div class="my_content">
-        <h>I sometimes play videogames so if I have any content on my channel then its about videogames.</h>
+        <h>Showing off my new rocket league audio, camera, deadzone/sensitivity and video settings:</h>
+    </div>
+    <div class="rl_gallery my_content row">
+        <div class="col-12 col-sm-12 col-md-6"><a href="./img/rls%20(1).jpg" data-lightbox="settings"><img src="./img/rls%20(1).jpg" alt="" class="img-fluid"></a></div>
+        <div class="col-12 col-sm-12 col-md-6"><a href="./img/rls%20(2).jpg" data-lightbox="settings"><img src="./img/rls%20(2).jpg" alt="" class="img-fluid"></a></div>
+        <div class="col-12 col-sm-12 col-md-6"><a href="./img/rls%20(3).jpg" data-lightbox="settings"><img src="./img/rls%20(3).jpg" alt="" class="img-fluid"></a></div>
+        <div class="col-12 col-sm-12 col-md-6"><a href="./img/rls%20(4).jpg" data-lightbox="settings"><img src="./img/rls%20(4).jpg" alt="" class="img-fluid"></a></div>
     </div>
     <div class="row my_content">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6"><h style="font-size: 24px;" >Heres a link to my youtube channel:</h></div>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6"><a style="color: rgb(31, 4, 4); font-size: 24px;" href="https://www.youtube.com/channel/UCwdQwTEqCLus6Ys4nsQOMsA?view_as=subscriber">Click here</a></div>
+        <div class="col-12 col-sm-12 col-md-6"><h>Blazy uploaded a new video.</h></div>
+        <div class="col-12 col-sm-12 col-md-6"><h>Check it out:</h></div>
     </div>
     <div class="my_content">
-        <div class="col-3" style="display: block; text-align: center; margin: auto;"><a href="./img/yt_pic.png" data-lightbox="yt"><img src="./img/yt_pic.png" class="img-fluid" alt=""></a></div>
+        <div class="col-12 col-sm-12 col-md-6 embed-responsive embed-responsive-16by9" style="display: block; text-align: center; margin: auto;">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/I-zDh8ZAij0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </div>
 </div>
-<footer class="jumbotron" style="margin-bottom: 0;">Made by Gundars Pelle D3-3</footer>
+<footer class="jumbotron" style="margin-bottom: 0; ">Made by Gundars Pelle D3-3</footer>
 </body>
 </html>

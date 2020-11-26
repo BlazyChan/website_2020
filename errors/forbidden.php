@@ -44,9 +44,20 @@
     </button>
     <div class="collapse navbar-collapse" id="collapse_target">
 
-        <ul class="navbar-nav ml-auto">
+    <ul class="navbar-nav ml-auto">
+
             <li class="nav-item">
-                <a class="nav-link" href="/index.html">News</a>
+                <a class="nav-link" href="login">Pieslēgties</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="register">Reģistrēties</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sazina">Saziņa</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="index">News</a>
             </li>
 
             <li class="nav-item dropdown">
@@ -55,9 +66,9 @@
                     <span class="caret"></span>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdown_target">
-                    <a class="dropdown-item" href="/videos.html">Videos</a>
+                    <a class="dropdown-item" href="videos">Videos</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="/screenshots.html">Screenshots</a>
+                    <a class="dropdown-item" href="screenshots">Screenshots</a>
                 </div>
             </li>
 
@@ -67,13 +78,16 @@
                     <span class="caret"></span>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdown_target">
-                    <a class="dropdown-item" href="/me.html">Me</a>
+                    <a class="dropdown-item" href="me">Me</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="/my_channel.html">My Channel</a>
+                    <a class="dropdown-item" href="my_channel">My Channel</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="/my_dog.html">My Dog</a>
+                    <a class="dropdown-item" href="my_dog">My Dog</a>
                 </div>
             </li>
+
+            
+
         </ul>
 
     </div>

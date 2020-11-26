@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Dog</title>
+    <title>About my dog</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -25,37 +25,51 @@
     </button>
     <div class="collapse navbar-collapse" id="collapse_target">
 
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">News</a>
-            </li>
+    <ul class="navbar-nav ml-auto">
 
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
-                    Content
-                    <span class="caret"></span>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="dropdown_target">
-                    <a class="dropdown-item" href="videos.html">Videos</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="screenshots.html">Screenshots</a>
-                </div>
-            </li>
+<li class="nav-item">
+    <a class="nav-link" href="login">Pieslēgties</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="register">Reģistrēties</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="sazina">Saziņa</a>
+</li>
 
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
-                    About
-                    <span class="caret"></span>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="dropdown_target">
-                    <a class="dropdown-item" href="me.html">Me</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="my_channel.html">My Channel</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="my_dog.html">My Dog</a>
-                </div>
-            </li>
-        </ul>
+<li class="nav-item">
+    <a class="nav-link" href="index">News</a>
+</li>
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
+        Content
+        <span class="caret"></span>
+    </a>
+    <div class="dropdown-menu" aria-labelledby="dropdown_target">
+        <a class="dropdown-item" href="videos">Videos</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="screenshots">Screenshots</a>
+    </div>
+</li>
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
+        About
+        <span class="caret"></span>
+    </a>
+    <div class="dropdown-menu" aria-labelledby="dropdown_target">
+        <a class="dropdown-item" href="me">Me</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="my_channel">My Channel</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="my_dog">My Dog</a>
+    </div>
+</li>
+
+
+
+</ul>
 
     </div>
 </nav>
