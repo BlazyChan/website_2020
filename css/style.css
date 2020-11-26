@@ -1,0 +1,48 @@
+body{
+    background-color: #343a40;
+    font-family: Arial, serif;
+    font-weight: bold;
+    text-align: center;
+}
+.jumbotron{
+    background-color: darkgrey;
+    border: 10px solid dimgray;
+}
+.rl_gallery img {
+    transition: 1s;
+    padding: 10px;
+}
+.rl_gallery img:hover{
+    filter: grayscale(100%);
+}
+
+.my_content_title{
+    background-color: #C70039;
+    color: #581845;
+    border: 10px solid #900C3F;
+}
+h1{
+    font-weight: bold;
+    font-size: 36px;
+}
+footer{
+    font-size: 24px;
+    font-weight: bold;
+}
+.my_content{
+    background-color: #C70039;
+    color: #581845;
+    border: 10px solid #900C3F;
+    border-top: 0;
+}
+.container{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    margin: 0;
+    padding: 0;
+}
+h{
+    font-size: 24px;
+}
