@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Channel</title>
+    <title>Forbidden page</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -10,14 +10,33 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
-    <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/lightbox.min.css">
+    <script type="text/javascript" src="/js/lightbox-plus-jquery.min.js"></script>
 </head>
 <body>
 <div class="jumbotron" style="margin-bottom: 0; ">
     <h1>Welcome to my website!</h1>
 </div>
+
+<div class="container col-12">
+    <div class="my_content_title">
+        <h>Error 403</h>
+    </div>
+</div>
+
+<div class="container col-12">
+    <div class="my_content">
+        <h>Sorry, you don't have access to view this page!</h>
+    </div>
+</div>
+
+<div class="container col-12">
+    <div class="my_content">
+        <h>Please go to one of my public pages instead:</h>
+    </div>
+</div>
+
 <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
     <span class="navbar-text mr-auto">Gundar's website</span>
     <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#collapse_target">
@@ -27,7 +46,7 @@
 
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="index.html">News</a>
+                <a class="nav-link" href="/index.html">News</a>
             </li>
 
             <li class="nav-item dropdown">
@@ -36,9 +55,9 @@
                     <span class="caret"></span>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdown_target">
-                    <a class="dropdown-item" href="videos.html">Videos</a>
+                    <a class="dropdown-item" href="/videos.html">Videos</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="screenshots.html">Screenshots</a>
+                    <a class="dropdown-item" href="/screenshots.html">Screenshots</a>
                 </div>
             </li>
 
@@ -48,32 +67,17 @@
                     <span class="caret"></span>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdown_target">
-                    <a class="dropdown-item" href="me.html">Me</a>
+                    <a class="dropdown-item" href="/me.html">Me</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="my_channel.html">My Channel</a>
+                    <a class="dropdown-item" href="/my_channel.html">My Channel</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="my_dog.html">My Dog</a>
+                    <a class="dropdown-item" href="/my_dog.html">My Dog</a>
                 </div>
             </li>
         </ul>
 
     </div>
 </nav>
-<div class="container col-12">
-    <div class="my_content_title">
-        <h>Info about my youtube channel:</h>
-    </div>
-    <div class="my_content">
-        <h>I sometimes play videogames so if I have any content on my channel then its about videogames.</h>
-    </div>
-    <div class="row my_content">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6"><h style="font-size: 24px;" >Heres a link to my youtube channel:</h></div>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6"><a style="color: rgb(31, 4, 4); font-size: 24px;" href="https://www.youtube.com/channel/UCwdQwTEqCLus6Ys4nsQOMsA?view_as=subscriber">Click here</a></div>
-    </div>
-    <div class="my_content">
-        <div class="col-3" style="display: block; text-align: center; margin: auto;"><a href="./img/yt_pic.png" data-lightbox="yt"><img src="./img/yt_pic.png" class="img-fluid" alt=""></a></div>
-    </div>
-</div>
-<footer class="jumbotron" style="margin-bottom: 0;">Made by Gundars Pelle D3-3</footer>
+<footer class="jumbotron" style="margin-bottom: 0; ">Made by Gundars Pelle D3-3</footer>
 </body>
 </html>
